@@ -1,0 +1,110 @@
+Food_ID,Food_Name,Candidate_Rows,Eligible_Candidates,Top3_Available
+FRU_001,Apple,40,39,True
+FRU_002,Banana,40,39,True
+FRU_003,Mango,40,39,True
+FRU_004,Orange,40,39,True
+FRU_005,Mandarin,40,39,True
+FRU_006,Grapes,40,39,True
+FRU_007,Pomegranate,40,39,True
+FRU_008,Papaya,40,39,True
+FRU_009,Guava,40,0,False
+FRU_010,Pineapple,40,39,True
+FRU_011,Watermelon,40,39,True
+FRU_012,Muskmelon / Cantaloupe,40,39,True
+FRU_013,Strawberry,40,39,True
+FRU_014,Blueberry,40,39,True
+FRU_015,Peach,40,39,True
+FRU_016,Pear,40,0,False
+FRU_017,Plum,40,39,True
+FRU_018,Kiwi,40,39,True
+FRU_019,Avocado,40,39,True
+FRU_020,Lemon,40,39,True
+FRU_021,Lime,40,39,True
+FRU_022,Jackfruit,40,0,False
+FRU_023,Sapota / Chikoo,40,0,False
+FRU_024,Fig,40,0,False
+FRU_025,Cantaloupe,40,39,True
+MEAT_001,Chicken breast,40,40,True
+MEAT_002,Chicken thigh,40,40,True
+MEAT_003,Mutton / goat meat,40,40,True
+MEAT_004,Buffalo meat,40,40,True
+MEAT_005,Beef,40,40,True
+MEAT_006,Pork,40,40,True
+MEAT_007,Chicken mince,40,40,True
+MEAT_008,Mutton mince,40,40,True
+PREP_001,Idli,40,40,True
+PREP_002,Dosa,40,40,True
+PREP_003,Vada,40,40,True
+PREP_004,Pongal,40,40,True
+PREP_005,Poori,40,40,True
+PREP_006,Parotta,40,40,True
+PREP_007,Chapati,40,40,True
+PREP_008,Sambar,40,40,True
+PREP_009,Coconut chutney,40,40,True
+PREP_010,Tomato chutney,40,40,True
+PREP_011,Lemon rice,40,40,True
+PREP_012,Curd rice,40,40,True
+PREP_013,South Indian meals / thali,40,40,True
+PREP_014,Chicken biryani,40,40,True
+PREP_015,Mutton biryani,40,40,True
+PREP_016,Vegetable biryani,40,40,True
+PREP_017,Fried rice,40,40,True
+PREP_018,Tomato rice,40,40,True
+PREP_019,Variety rice,40,40,True
+PREP_020,Roti,40,40,True
+PREP_021,Naan,40,40,True
+PREP_022,Paratha,40,40,True
+PREP_023,Paneer butter masala,40,40,True
+PREP_024,Dal,40,40,True
+PREP_025,Rajma,40,40,True
+PREP_026,Chole,40,40,True
+PREP_027,Butter chicken,40,40,True
+PREP_028,Chicken 65,40,40,True
+PREP_029,Grilled chicken,40,40,True
+PREP_030,Samosa,40,40,True
+PREP_031,Pakora / pakoda,40,40,True
+PREP_032,Cutlet,40,40,True
+PREP_033,Vada pav,40,40,True
+PREP_034,Kachori,40,40,True
+PREP_035,Gulab jamun,40,40,True
+PREP_036,Jalebi,40,40,True
+PREP_037,Laddu,40,40,True
+PREP_038,Mysore pak,40,40,True
+PREP_039,Halwa,40,40,True
+PREP_040,Rasgulla,40,40,True
+PREP_041,Kheer,40,40,True
+PREP_042,Pani puri,40,40,True
+PREP_043,Chole bhature,40,40,True
+PREP_044,Pav bhaji,40,40,True
+SEA_001,Salmon,40,40,True
+SEA_002,Cod,40,40,True
+SEA_003,Indian mackerel,40,40,True
+SEA_004,Rohu,40,40,True
+SEA_005,Crab,40,40,True
+SEA_006,Prawns / shrimp,40,40,True
+SEA_007,Squid,40,40,True
+VEG_001,Tomato,40,39,True
+VEG_002,Potato,40,39,True
+VEG_003,Onion,40,39,True
+VEG_004,Carrot,40,39,True
+VEG_005,Cabbage,40,39,True
+VEG_006,Cauliflower,40,39,True
+VEG_007,Broccoli,40,39,True
+VEG_008,Spinach,40,39,True
+VEG_009,Lettuce,40,39,True
+VEG_010,Cucumber,40,39,True
+VEG_011,Capsicum / Bell Pepper,40,39,True
+VEG_012,Green Chilli,40,0,False
+VEG_013,Brinjal / Eggplant,40,39,True
+VEG_014,Okra,40,39,True
+VEG_015,Beans / Green Beans,40,39,True
+VEG_016,Peas,40,39,True
+VEG_017,Beetroot,40,39,True
+VEG_018,Radish,40,39,True
+VEG_019,Sweet Corn,40,39,True
+VEG_020,Garlic,40,39,True
+VEG_021,Ginger,40,0,False
+VEG_022,Sweet Potato,40,0,False
+VEG_023,Pumpkin,40,0,False
+VEG_024,Bottle Gourd,40,0,False
+VEG_025,Bitter Gourd,40,0,False
