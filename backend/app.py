@@ -32,6 +32,24 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+@app.middleware("http")
+async def strip_api_prefix(request, call_next):
+    """
+    Allow the same FastAPI routes to work locally as /foods
+    and through Vercel Services as /api/foods.
+    """
+    path = request.scope.get("path", "")
+
+    if path == "/api":
+        request.scope["path"] = "/"
+        request.scope["raw_path"] = b"/"
+
+    elif path.startswith("/api/"):
+        new_path = path[4:]
+        request.scope["path"] = new_path
+        request.scope["raw_path"] = new_path.encode("utf-8")
+
+    return await call_next(request)
 
 
 
