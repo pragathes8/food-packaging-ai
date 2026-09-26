@@ -2,8 +2,8 @@
 from pathlib import Path
 import pandas as pd
 
-from requirement_candidate_scoring_engine_v1 import RequirementCandidateScoringEngineV1
-from packaging_recommendation_engine_v2 import PackagingRecommendationEngineV2
+from backend.requirement_candidate_scoring_engine_v1 import RequirementCandidateScoringEngineV1
+from backend.packaging_recommendation_engine_v2 import PackagingRecommendationEngineV2
 
 class FinalRecommendationPipelineV2:
     """
