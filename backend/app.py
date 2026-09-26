@@ -31,6 +31,8 @@ app.add_middleware(
         "http://localhost:5173",
         "http://127.0.0.1:5173",
         "https://food-packaging-ai-eight.vercel.app",
+        "https://food-packaging-ai-sable.vercel.app",
+        "https://food-packaging-ai-dp2pfgu7w-pragatheswar2006-2508.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
