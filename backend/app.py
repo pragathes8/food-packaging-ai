@@ -7,7 +7,10 @@ from fastapi.encoders import jsonable_encoder
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
-from backend.final_recommendation_pipeline_v2 import FinalRecommendationPipelineV2
+try:
+    from backend.final_recommendation_pipeline_v2 import FinalRecommendationPipelineV2
+except ModuleNotFoundError:
+    from final_recommendation_pipeline_v2 import FinalRecommendationPipelineV2
 
 BASE_DIR = Path(__file__).resolve().parent
 ENGINE = FinalRecommendationPipelineV2(BASE_DIR)
